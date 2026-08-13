@@ -1,0 +1,107 @@
+html, body{
+    padding : 0; 
+    margin : 0; 
+    overflow: hidden;
+}
+
+body{
+    background: #9b2a86;
+    background: linear-gradient(43deg, rgba(155, 42, 134, 1) 0%, rgba(87, 115, 199, 1) 100%);
+}
+
+section {
+    background : rgba(255, 255, 255, 0.342);
+    border-radius: 30px;
+    border: 1px solid rgba(255,255,255, .3);
+    box-shadow: 10px 10px 50px rgba(0,0,0,.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+#container{
+    text-align: center;
+    margin : 15% auto; 
+    width : 500px; 
+    height: 600px;
+    z-index: 0;
+}
+
+#container h1{
+    color : whitesmoke; 
+    margin-top: 80px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);    
+}
+
+input[type="email"], input[type="text"], input[type="password"]{
+    background : rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255,255,255, .3);
+    box-shadow: 10px 10px 50px rgba(0,0,0,.4);
+    border-radius: 10px;
+    width : 300px;
+    height : 50px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size : 15px;
+    padding : 15px;
+    color : whitesmoke;
+}
+
+input::placeholder{
+    color : whitesmoke; 
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2); 
+}
+
+input[type="submit"]{
+    background : rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255,255,255, .3);
+    box-shadow: 10px 10px 50px rgba(0,0,0,.4);
+    border-radius: 20px;
+    width : 200px;
+    height : 50px;
+    margin-top: 20px;
+    color : whitesmoke; 
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]:hover{
+    background: rgba(255,255,255,.3);
+    transform: scale(1.03);
+}
+
+#square1{
+    position : absolute; 
+    width : 200px; 
+    height: 200px;
+    left : 400px;
+    top : -80px;
+    z-index: 1;
+}
+
+#square2{
+    position : absolute; 
+    width : 100px; 
+    height: 100px;
+    left : 430px;
+    top : 530px;
+    z-index: 1;
+}
+
+#square3{
+    position : absolute; 
+    width : 100px; 
+    height: 100px;
+    left : -40px;
+    top : -40px;
+    z-index: -1;
+}
+
+#container a {
+    color : whitesmoke; 
+}
+
+
+
+
+
